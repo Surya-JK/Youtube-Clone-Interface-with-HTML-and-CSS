@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="youtube web/general.css">
+        <link rel="stylesheet" href="youtube web/header.css">
+        <link rel="stylesheet" href="youtube web/video.css">
+        <link rel="stylesheet" href="youtube web/side.css">
+        <link rel="stylesheet" href="youtube web/scroll.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="left">
+                <img class="hamicon" src="icons/images.png"> 
+                <img class="youtubeicon" src="icons/youtube.png">
+            </div>
+            <div class="middle">
+                <input class="searchb1" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.png">
+                    <div class="check">Search</div>
+                </button>
+                <button class="voice-search">
+                    <img class="voice-icon" src="icons/mic.png">
+                    <div class="check">Voice Search</div>
+                </button>
+            </div>
+            <div class="right">
+                <div class="upload-container">
+                    <img class="upload-icon" src="icons/upload.png">
+                    <div class="check">Upload</div>
+                </div>
+                <div class="app-container">
+                    <img class="apps-icon" src="icons/youtube-apps.png">
+                    <div class="check">Apps</div>   
+                </div>
+                <div class="notifications-container">
+                    <img class="notifications-icon" src="icons/notifications.png">
+                    <div class="notifications-number">5</div>
+                    <div class="check">Notifications</div>
+                </div>
+                <div class="account-container">
+                    <img class="account-icon" src="icons/account">
+                    <div class="check">Account</div></div>  
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="side-link">
+                <img src="icons/home.png">
+                <div>Home</div>
+            </div>
+            <div class="side-link">
+                <img src="icons/shorts.png">
+                <div>Shorts</div>
+            </div>
+            <div class="side-link">
+                <img src="icons/subscriptions.png">
+                <div>Subscriptions</div>
+            </div>
+            <div class="side-link">
+                <img src="icons/library.png">
+                <div>Library</div>
+            </div>
+        </div>
+        <div class="Gridcontainer">
+            <div class="preview">
+                    <div class="thumbnail-pre">
+                        <a href="https://www.youtube.com/watch?v=iTB3mCIBWMA&list=RDiTB3mCIBWMA&start_radio=1" class="video-title-link">
+                            <img class="thumbnail" src="youtube clone/morning">
+                        </a>
+                        <div class="time">2:55:54</div>
+                    </div>
+                    <div class="videogrid">
+                        <div class="channel1pic">
+                            <a href="https://www.youtube.com/@wearediamond">
+                                <img class="profile-picture1" src="youtube clone/vibe">
+                            </a>
+                        </div>
+                        <div class="info1">
+                            <a href="https://www.youtube.com/watch?v=iTB3mCIBWMA&list=RDiTB3mCIBWMA&start_radio=1" class="video-title-link">
+                                <p class="video">
+                                    Morning Vibes Playlist ☕ Feel Good Music to Lift Your Mood
+                                </p>
+                            </a>
+                            <a href="https://www.youtube.com/@wearediamond" class="video-title-link">
+                                <p class="author">
+                                    We Are Diamond
+                                </p>
+                            </a>
+                            <p class="views"> 10M views &#183; 6 months ago</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="preview">
+                <div class="thumbnail-pre">
+                    <a href="https://www.youtube.com/watch?v=bMgfsdYoEEo" class="video-title-link">
+                        <img class="thumbnail" src="youtube clone/conjuring">
+                    </a>
+                    <div class="time">2:26</div>
+                </div>
+                <div class="videogrid">
+                    <div class="channel1pic">
+                        <a href="https://www.youtube.com/@WarnerBros">
+                            <img class="profile-picture1" src="youtube clone/wb">
+                        </a>
+                    </div>
+                    <div class="info1">
+                        <a href="https://www.youtube.com/watch?v=bMgfsdYoEEo" class="video-title-link">
+                            <p class="video">
+                                The Conjuring: Last Rites | Official Trailer
+                            </p>
+                        </a>
+                        <a href="https://www.youtube.com/@WarnerBros" class="video-title-link">
+                            <p class="author">
+                                Warner Bros.
+                            </p>
+                        </a>
+                        <p class="views"> 1.8M views &#183; 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="preview">
+                <div class="thumbnail-pre">
+                    <a href="https://www.youtube.com/watch?v=SJNbnVjecf0" class="video-title-link">
+                        <img class="thumbnail" src="youtube clone/cheapest">
+                    </a>
+                    <div class="time">16:06</div>
+                </div>
+                <div class="videogrid">
+                    <div class="channel1pic">
+                        <a href="https://www.youtube.com/@Mrwhosetheboss">
+                            <img class="profile-picture1" src="youtube clone/laptop">
+                        </a>
+                    </div>
+                    <div class="info1">
+                        <a href="https://www.youtube.com/watch?v=SJNbnVjecf0" class="video-title-link">
+                            <p class="video">
+                                World's Cheapest vs Most Expensive Laptop!
+                            </p>
+                        </a>
+                        <a href="https://www.youtube.com/@Mrwhosetheboss" class="video-title-link">
+                            <p class="author">
+                                Mrwhosetheboss
+                            </p>
+                        </a>
+                        <p class="views"> 13M views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="preview">
+                <div class="thumbnail-pre">
+                    <a href="https://www.youtube.com/watch?v=ySXBVrmPQog&list=RDySXBVrmPQog&start_radio=1" target="_blank" class="video-title-link">
+                        <img class="thumbnail" src="youtube clone/lego">
+                    </a>
+                    <div class="time">33:42</div>
+                </div>
+                <div class="videogrid">
+                    <div class="channel1pic">
+                        <img class="profile-picture1" src="youtube clone/brick">
+                    </div>
+                    <div class="info1">
+                        <a href="https://www.youtube.com/watch?v=ySXBVrmPQog&list=RDySXBVrmPQog&start_radio=1" target="_blank" class="video-title-link">
+                            <p class="video">
+                                Building a Working LEGO Laptop...
+                            </p>
+                        </a>
+                        <p class="author">
+                            Brick Machines
+                        </p>
+                        <p class="views"> 4.1M views &#183; 7 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="preview">
+                <div class="thumbnail-pre">
+                    <a href="https://www.youtube.com/watch?v=nb_fFj_0rq8" class="video-title-link">
+                        <img class="thumbnail" src="youtube clone/avatar">
+                    </a>
+                    <div class="time">2:26</div>
+                </div>
+                <div class="videogrid">
+                    <div class="channel1pic">
+                        <img class="profile-picture1" src="youtube clone/channel4">
+                    </div>
+                    <div class="info1">
+                        <a href="https://www.youtube.com/watch?v=nb_fFj_0rq8" class="video-title-link">
+                            <p class="video">
+                                Avatar: Fire and Ash | Official Trailer
+                            </p>
+                        </a>
+                        <p class="author">
+                            Avatar
+                        </p>
+                        <p class="views"> 14M views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="preview">
+                <div class="thumbnail-pre">
+                    <a href="https://www.youtube.com/watch?v=WG_LWS0R9Fg" class="video-title-link">
+                        <img class="thumbnail" src="youtube clone/spider">
+                    </a>
+                    <div class="time">11:44</div>
+                </div>
+                <div class="videogrid">
+                    <div class="channel1pic">
+                        <a href="https://www.youtube.com/@marvel" class="video-title-link">
+                            <img class="profile-picture1" src="youtube clone/marvel">
+                        </a>
+                    </div>
+                    <div class="info1">
+                        <a href="https://www.youtube.com/watch?v=WG_LWS0R9Fg" class="video-title-link">
+                            <p class="video">
+                                MCU Tech and Gadgets | Compilation
+                            </p>
+                        </a>
+                        <a href="https://www.youtube.com/@marvel" class="video-title-link">
+                            <p class="author">
+                                Marvel Entertainment
+                            </p>
+                        </a>
+                        <p class="views"> 664K views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
